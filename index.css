@@ -1,0 +1,107 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: orange;
+    border: 5px solid brown;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.Salario-total, .Restante, .Boletos, .Extra {
+    background-color: rgb(255, 120, 2);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.Salario-total h2, .Restante h2, .Boletos h2, .Extra h2 {
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+.Salario-total .input-btn, .Restante .input-btn, .Boletos .input-btn, .Extra .input-btn {
+    display: flex;
+    align-items: center;
+}
+
+.input-btn input[type="number"], .input-btn input[type="text"], .input-btn button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.input-btn input[type="number"], .input-btn input[type="text"] {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    margin-right: 10px;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Buttons button {
+    width: 30%;
+    font-size: 18px;
+    background-color: #0000f8;
+    border: 3px solid #000009;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 17px;
+    color: #000009;
+    margin-top: 20px;
+}
+
+/* Estilos adicionales para responsividad */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .Buttons button {
+        width: 40%;
+        font-size: 16px;
+    }
+}
+
+/* Estilos para los títulos y colores del banco Mercantil */
+h2, h3 {
+    color: #0707cf;
+}
+
+body {
+    background-color: #754008; /* Naranja */
+}
+
+.container {
+    background-color: #0000f8; /* Azul */
+    border-color: #f6f2ee; /* Naranja */
+}
