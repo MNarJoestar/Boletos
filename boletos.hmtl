@@ -39,7 +39,7 @@
             <ul id="gastosExtra"></ul>
         </nav>
     </div>
-
+// configuracion
 <div class="Buttons">
    <button onclick="limpiarDatos()">Limpiar</button>
 <button onclick="exportarExcel()">Exportar para Excel</button>
